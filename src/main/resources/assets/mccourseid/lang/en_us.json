@@ -1,0 +1,27 @@
+{
+  "item.mccourseid.black_opal": "Black Opal",
+  "item.mccourseid.raw_black_opal": "Raw Black Opal",
+  "itemGroup.mccourseid.black_opal_items_tab": "Black Opal Items",
+  "itemGroup.mccourseid.black_opal_blocks_tab": "Black Opal Blocks",
+  "block.mccourseid.black_opal_block": "Block of Black Opal",
+  "block.mccourseid.raw_black_opal_block": "Raw Black Opal Block",
+  "block.mccourseid.black_opal_ore": "Black Opal Ore",
+  "block.mccourseid.black_opal_deepslate_ore": "Black Opal Deepslate Ore",
+  "block.mccourseid.black_opal_end_ore": "Black Opal End Ore",
+  "block.mccourseid.black_opal_nether_ore": "Black Opal Nether Ore",
+
+
+
+  "item.mccourseid.chainsaw": "§eChainsaw§r",
+  "item.mccourseid.tomato": "Tomato",
+  "item.mccourseid.frostfire_ice": "Frostfire Ice",
+
+  "tooltip.mccourseid.tomato.1": "TomAto or TomatO?",
+
+  "tooltip.mccourseid.chainsaw.tooltip.1": "This Chainsaw is awesome and will cut down trees!",
+  "tooltip.mccourseid.chainsaw.tooltip.2": "- §o  Chainsaw go §4vrooom!§r",
+  "tooltip.mccourseid.chainsaw.tooltip.shift": "Press §6Shift§r for more Information",
+
+  "block.mccourseid.magic_block": "Magic Block",
+  "tooltip.mccourseid.magic_block.tooltip.1": "This block is §sMAGICAL§r"
+}

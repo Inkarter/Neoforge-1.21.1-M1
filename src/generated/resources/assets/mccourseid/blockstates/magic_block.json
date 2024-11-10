@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mccourseid:block/magic_block"
+    }
+  }
+}

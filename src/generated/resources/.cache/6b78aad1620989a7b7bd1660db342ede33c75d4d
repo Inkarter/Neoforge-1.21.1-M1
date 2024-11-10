@@ -1,0 +1,4 @@
+// 1.21.1	2024-11-10T00:11:27.4495213	Tags for minecraft:block mod id mccourseid
+a39ed1c6c624d8f13ecc594aff1a0a54d56a96d2 data/minecraft/tags/block/mineable/pickaxe.json
+832284ca1c912a0d5e60f54fbd01d30b6ea98b07 data/minecraft/tags/block/needs_diamond_tool.json
+e100457c2bd16972a5700ed13657f0ba87996a25 data/minecraft/tags/block/needs_iron_tool.json
