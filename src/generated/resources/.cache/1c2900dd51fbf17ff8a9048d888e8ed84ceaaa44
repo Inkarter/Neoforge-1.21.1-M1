@@ -1,5 +1,9 @@
-// 1.21.1	2024-11-10T00:11:27.4375208	Item Models: mccourseid
+// 1.21.1	2024-11-23T17:43:19.2443389	Item Models: mccourseid
 692b82115aa385119d798a8cb66c1caf05f03911 assets/mccourseid/models/item/black_opal.json
+e4c86cefa387ead2d0eaa9895c493177b7cc0ecc assets/mccourseid/models/item/black_opal_button.json
+8a49b6cd36092d75cb5a8e2fecc1d2bda0f4a55f assets/mccourseid/models/item/black_opal_door.json
+e77ce97c28136a0cb03353e1fbbdbe0e48431560 assets/mccourseid/models/item/black_opal_fence.json
+418aab9a4be997bb949f910eee86b936577ce34e assets/mccourseid/models/item/black_opal_wall.json
 978e37f0b6dd5e6ca8a62f6d3832db8529755db0 assets/mccourseid/models/item/chainsaw.json
 1e2e07d7471e89d1209855dbc799e3a96cf72eee assets/mccourseid/models/item/frostfire_ice.json
 04b8f2f1c1e1b23a2b4af471188230dbd53effe8 assets/mccourseid/models/item/raw_black_opal.json

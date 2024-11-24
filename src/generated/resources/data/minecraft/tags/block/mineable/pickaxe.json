@@ -6,6 +6,8 @@
     "mccourseid:black_opal_ore",
     "mccourseid:black_opal_nether_ore",
     "mccourseid:black_opal_deepslate_ore",
-    "mccourseid:magic_block"
+    "mccourseid:magic_block",
+    "mccourseid:black_opal_slab",
+    "mccourseid:black_opal_stairs"
   ]
 }

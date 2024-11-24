@@ -10,6 +10,14 @@
   "block.mccourseid.black_opal_end_ore": "Black Opal End Ore",
   "block.mccourseid.black_opal_nether_ore": "Black Opal Nether Ore",
 
+  "block.mccourseid.black_opal_stairs": "Black Opal Stairs",
+  "block.mccourseid.black_opal_slab": "Black Opal Slab",
+  "block.mccourseid.black_opal_pressure_plate": "Black Opal Pressure Plate",
+  "block.mccourseid.black_opal_fence": "Black Opal Fence",
+  "block.mccourseid.black_opal_fence_gate": "Black Opal Fence Gate",
+  "block.mccourseid.black_opal_wall": "Black Opal Wall",
+  "block.mccourseid.black_opal_door": "Black Opal Door",
+  "block.mccourseid.black_opal_trapdoor": "Black Opal Trapdoor",
 
 
   "item.mccourseid.chainsaw": "§eChainsaw§r",

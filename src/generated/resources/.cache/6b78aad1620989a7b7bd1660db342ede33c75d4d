@@ -1,4 +1,7 @@
-// 1.21.1	2024-11-10T00:11:27.4495213	Tags for minecraft:block mod id mccourseid
-a39ed1c6c624d8f13ecc594aff1a0a54d56a96d2 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21.1	2024-11-23T17:23:15.6097822	Tags for minecraft:block mod id mccourseid
+0d369c739f1cbedaedc4ca2d6fb493b8de3772b3 data/minecraft/tags/block/fences.json
+7f605c307fd9672fa1a9315b959cb9726ab96414 data/minecraft/tags/block/fence_gates.json
+fef575589a024e34b585ff33f04b0eab89ed6bd6 data/minecraft/tags/block/mineable/pickaxe.json
 832284ca1c912a0d5e60f54fbd01d30b6ea98b07 data/minecraft/tags/block/needs_diamond_tool.json
 e100457c2bd16972a5700ed13657f0ba87996a25 data/minecraft/tags/block/needs_iron_tool.json
+5aed35c08e0ccc6395e6ce1585570d6b6e731d03 data/minecraft/tags/block/walls.json

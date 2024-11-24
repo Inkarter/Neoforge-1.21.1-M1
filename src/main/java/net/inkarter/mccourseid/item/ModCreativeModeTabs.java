@@ -50,11 +50,25 @@ public class ModCreativeModeTabs
                     pOutput.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
 
                     pOutput.accept(ModBlocks.BLACK_OPAL_ORE);
+
                     pOutput.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
                     pOutput.accept(ModBlocks.BLACK_OPAL_END_ORE);
                     pOutput.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
 
                     pOutput.accept(ModBlocks.MAGIC_BLOCK);
+
+                    pOutput.accept(ModBlocks.BLACK_OPAL_SLAB);
+                    pOutput.accept(ModBlocks.BLACK_OPAL_STAIRS);
+
+                    pOutput.accept(ModBlocks.BLACK_OPAL_BUTTON);
+                    pOutput.accept(ModBlocks.BLACK_OPAL_PRESSURE_PLATE);
+
+                    pOutput.accept(ModBlocks.BLACK_OPAL_FENCE);
+                    pOutput.accept(ModBlocks.BLACK_OPAL_FENCE_GATE);
+                    pOutput.accept(ModBlocks.BLACK_OPAL_WALL);
+
+                    pOutput.accept(ModBlocks.BLACK_OPAL_DOOR);
+                    pOutput.accept(ModBlocks.BLACK_OPAL_TRAPDOOR);
 
 
                     }).build());
