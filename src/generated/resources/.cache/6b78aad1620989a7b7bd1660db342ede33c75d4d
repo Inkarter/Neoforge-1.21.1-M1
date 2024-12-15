@@ -1,4 +1,5 @@
-// 1.21.1	2024-11-23T17:23:15.6097822	Tags for minecraft:block mod id mccourseid
+// 1.21.1	2024-11-25T14:55:55.8878098	Tags for minecraft:block mod id mccourseid
+984a835f12c583514b244703d6bad1afa79b3402 data/mccourseid/tags/block/mineable/paxel.json
 0d369c739f1cbedaedc4ca2d6fb493b8de3772b3 data/minecraft/tags/block/fences.json
 7f605c307fd9672fa1a9315b959cb9726ab96414 data/minecraft/tags/block/fence_gates.json
 fef575589a024e34b585ff33f04b0eab89ed6bd6 data/minecraft/tags/block/mineable/pickaxe.json

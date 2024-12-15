@@ -1,5 +1,6 @@
 package net.inkarter.mccourseid.item.custom;
 
+import net.inkarter.mccourseid.component.ModDataComponentTypes;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -37,7 +38,8 @@ public class ChainsawItem extends Item//ctrl + left click Item to see more
                 
                 pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),
                         item -> Objects.requireNonNull(pContext.getPlayer()).onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
-                
+
+                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
             }
         }
         return InteractionResult.CONSUME;//ctrl + left click InteractionResult to see more
@@ -51,6 +53,10 @@ public class ChainsawItem extends Item//ctrl + left click Item to see more
             tooltipComponents.add(Component.translatable("tooltip.mccourseid.chainsaw.tooltip.2"));
         }   else {
             tooltipComponents.add(Component.translatable("tooltip.mccourseid.chainsaw.tooltip.shift"));
+        }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES.get()) != null) {
+            tooltipComponents.add(Component.literal("Last Tree was chopped at " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);

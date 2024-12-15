@@ -59,10 +59,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BLACK_OPAL_WALL.get());
 
         dropSelf(ModBlocks.BLACK_OPAL_TRAPDOOR.get());
+
         this.add(ModBlocks.BLACK_OPAL_DOOR.get(),
                 block -> createDoorTable(ModBlocks.BLACK_OPAL_DOOR.get()));
 
-
+        dropSelf(ModBlocks.BLACK_OPAL_LAMP.get());
     }
     protected LootTable.Builder createMultipleOreDrops(Block block, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);

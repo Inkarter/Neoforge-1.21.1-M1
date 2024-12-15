@@ -12,7 +12,10 @@ public class ModTags
 {
     public static class Blocks{
 
+    public static final TagKey<Block> INCORRECT_FOR_BLACK_OPAL_TOOL = createTag("incorrect_for_black_opal_tool");
+    public static final TagKey<Block> NEEDS_FOR_BLACK_OPAL_TOOL = createTag("needs_for_black_opal_tool");
 
+    public static final TagKey<Block> PAXEL_MINABLE = createTag("mineable/paxel");
 
 
         private static TagKey<Block> createTag(String name)

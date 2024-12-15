@@ -6,6 +6,7 @@ import net.inkarter.mccourseid.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.fml.common.Mod;
@@ -30,6 +31,11 @@ public class ModItemTagProvider extends ItemTagsProvider
             .add(Items.COAL)
             .add(Items.DANDELION)
             .add(Items.COMPASS);
+    this.tag(ItemTags.TRIMMABLE_ARMOR)
+            .add(ModItems.BLACK_OPAL_HELMET.get())
+            .add(ModItems.BLACK_OPAL_CHESTPLATE.get())
+            .add(ModItems.BLACK_OPAL_LEGGINGS.get())
+            .add(ModItems.BLACK_OPAL_BOOTS.get());
 
     }
 }

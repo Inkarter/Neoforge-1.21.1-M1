@@ -3,9 +3,12 @@ package net.inkarter.mccourseid.datagen;
 import net.inkarter.mccourseid.MCCourseMod;
 import net.inkarter.mccourseid.block.ModBlocks;
 import net.inkarter.mccourseid.item.ModItems;
+
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -20,6 +23,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MEDIUM_EGG, 1)
+                .requires(ModItems.SMALL_EGG.get(),3)
+                .unlockedBy("has_small_egg", has(ModItems.SMALL_EGG.get())).save(pRecipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.LARGE_EGG, 1)
+                .requires(ModItems.MEDIUM_EGG,3)
+                .unlockedBy("has_large_egg", has(ModItems.LARGE_EGG.get())).save(pRecipeOutput);
+
+
+
+
         List<ItemLike> BLACK_OPAL_SMELTABLES = List.of(ModItems.RAW_BLACK_OPAL,
                 ModBlocks.BLACK_OPAL_ORE, ModBlocks.BLACK_OPAL_DEEPSLATE_ORE, ModBlocks.BLACK_OPAL_END_ORE, ModBlocks.BLACK_OPAL_NETHER_ORE);
 
@@ -33,6 +47,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BLACK_OPAL.get(), 9)
                 .requires(ModBlocks.BLACK_OPAL_BLOCK.get())
                 .unlockedBy("has_black_opal_block", has(ModBlocks.BLACK_OPAL_BLOCK.get())).save(pRecipeOutput);
+
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BLACK_OPAL.get(), 9)
                 .requires(ModBlocks.MAGIC_BLOCK.get())

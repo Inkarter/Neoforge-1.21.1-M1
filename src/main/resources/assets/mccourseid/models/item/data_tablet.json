@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mccourseid:item/data_tablet_off"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mccourseid:on": 1
+      },
+      "model": "mccourseid:item/data_tablet_on"
+    }
+  ]
+}

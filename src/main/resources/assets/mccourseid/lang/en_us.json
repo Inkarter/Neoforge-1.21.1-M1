@@ -24,6 +24,7 @@
   "item.mccourseid.tomato": "Tomato",
   "item.mccourseid.frostfire_ice": "Frostfire Ice",
 
+
   "tooltip.mccourseid.tomato.1": "TomAto or TomatO?",
 
   "tooltip.mccourseid.chainsaw.tooltip.1": "This Chainsaw is awesome and will cut down trees!",
@@ -31,5 +32,37 @@
   "tooltip.mccourseid.chainsaw.tooltip.shift": "Press §6Shift§r for more Information",
 
   "block.mccourseid.magic_block": "Magic Block",
-  "tooltip.mccourseid.magic_block.tooltip.1": "This block is §sMAGICAL§r"
+  "tooltip.mccourseid.magic_block.tooltip.1": "This block is §sMAGICAL§r",
+
+  "item.mccourseid.black_opal_sword": "Black Opal Sword",
+  "item.mccourseid.black_opal_pickaxe": "Black Opal Pickaxe",
+  "item.mccourseid.black_opal_shovel": "Black Opal Shovel",
+  "item.mccourseid.black_opal_axe": "Black Opal Axe",
+  "item.mccourseid.black_opal_hoe": "Black Opal Hoe",
+  "item.mccourseid.black_opal_paxel": "Black Opal Paxel",
+  "item.mccourseid.black_opal_hammer": "Black Opal Hammer",
+
+  "item.mccourseid.black_opal_helmet": "Black Opal Helmet",
+  "item.mccourseid.black_opal_chestplate": "Black Opal Chestplate",
+  "item.mccourseid.black_opal_leggings": "Black Opal Leggings",
+  "item.mccourseid.black_opal_boots": "Black Opal Boots",
+
+
+
+  "item.mccourseid.black_opal_horse_armor": "Black Horse Armor",
+
+
+  "item.mccourseid.black_opal_lamp": "Black Opal Lamp",
+
+
+  "item.mccourseid.metal_detector.no_valuables": "No Valuables Found",
+  "item.mccourseid.metal_detector": "Metal Detector",
+  "item.mccourseid.data_tablet": "Data Tablet",
+
+  "item.mccourseid.inkarter_bow": "Inkarter Bow",
+
+
+  "item.mccourseid.small_egg": "Small Egg",
+  "item.mccourseid.medium_egg": "Medium Egg",
+  "item.mccourseid.large_egg": "Large Egg"
 }

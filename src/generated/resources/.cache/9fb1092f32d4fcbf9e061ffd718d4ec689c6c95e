@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-23T17:44:34.2402706	Recipes
+// 1.21.1	2024-11-25T13:00:54.7836759	Recipes
 d47e448c7e5d25c4ba4ec2d2aad685d514fa7582 data/mccourseid/advancement/recipes/building_blocks/black_opal_slab.json
 07251dfe4a144e70138e2a9fc32ddae5dd231acd data/mccourseid/advancement/recipes/building_blocks/black_opal_stairs.json
 7bc40a8db45e4576891f6fd93fff8ea85ee00f48 data/mccourseid/advancement/recipes/building_blocks/black_opal_wall.json
@@ -16,6 +16,8 @@ ad9a9a0ab10b737be81d317ffb32508bb4320447 data/mccourseid/advancement/recipes/mis
 2ea1ab51e5d00bbe48940498c55014eea8b128be data/mccourseid/advancement/recipes/misc/black_opal_from_smelting_black_opal_nether_ore.json
 53416e10820fa0e05e2c871d1dcacbcae3b1b974 data/mccourseid/advancement/recipes/misc/black_opal_from_smelting_black_opal_ore.json
 eb44ec6c0126819fc3d02263344f581855d65a2d data/mccourseid/advancement/recipes/misc/black_opal_from_smelting_raw_black_opal.json
+7a03df23a95a208078b834d21aadcb18747f752a data/mccourseid/advancement/recipes/misc/large_egg.json
+529299eb65442fb0598861715be9a568f49fe30b data/mccourseid/advancement/recipes/misc/medium_egg.json
 45a036ad09fb767de394be28268bdec8a9ffdd50 data/mccourseid/advancement/recipes/redstone/black_opal_button.json
 2e7202ef6b60f25b627dab0a709fd3f6f119819d data/mccourseid/advancement/recipes/redstone/black_opal_door.json
 0bc40260fcd2cc21d7a449d382ddc55621076073 data/mccourseid/advancement/recipes/redstone/black_opal_fence_gate.json
@@ -43,3 +45,5 @@ fb4a18b96793a77590d9563af76ad882a31ba5c7 data/mccourseid/recipe/black_opal_slab.
 cbc790b801b8513b1f476ea9c796e87d43ce57d2 data/mccourseid/recipe/black_opal_stairs.json
 861fede19c37c1ad65dbee55214550822fff0ada data/mccourseid/recipe/black_opal_trapdoor.json
 bb55564fa620f033e5cf9e5f5a660a0ff2263ab7 data/mccourseid/recipe/black_opal_wall.json
+06c155c5cee7dc7dcc899e6d2793ce999e67bed3 data/mccourseid/recipe/large_egg.json
+0594751854d593a3db55757a754a8c049aea1fca data/mccourseid/recipe/medium_egg.json

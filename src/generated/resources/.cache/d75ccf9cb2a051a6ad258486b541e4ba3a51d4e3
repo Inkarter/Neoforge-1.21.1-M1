@@ -1,2 +1,3 @@
-// 1.21.1	2024-11-10T00:11:27.4475469	Tags for minecraft:item mod id mccourseid
+// 1.21.1	2024-12-13T22:07:10.1690127	Tags for minecraft:item mod id mccourseid
 2661664dac06a7ec45102f5cfe65f0e648300be7 data/mccourseid/tags/item/transformable_items.json
+947ae6610b4d6acc0fceaab59c466bfbf5ada828 data/minecraft/tags/item/trimmable_armor.json

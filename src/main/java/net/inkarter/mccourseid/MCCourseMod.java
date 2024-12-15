@@ -1,8 +1,11 @@
 package net.inkarter.mccourseid;
 
 import net.inkarter.mccourseid.block.ModBlocks;
+import net.inkarter.mccourseid.component.ModDataComponentTypes;
+import net.inkarter.mccourseid.item.ModArmorMaterials;
 import net.inkarter.mccourseid.item.ModCreativeModeTabs;
 import net.inkarter.mccourseid.item.ModItems;
+import net.inkarter.mccourseid.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -46,6 +49,10 @@ public class MCCourseMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModArmorMaterials.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in.
@@ -98,9 +105,7 @@ public class MCCourseMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

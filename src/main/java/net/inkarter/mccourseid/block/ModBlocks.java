@@ -2,6 +2,7 @@ package net.inkarter.mccourseid.block;
 
 import com.mojang.blaze3d.shaders.Uniform;
 import net.inkarter.mccourseid.MCCourseMod;
+import net.inkarter.mccourseid.block.custom.BlackOpalLampBlock;
 import net.inkarter.mccourseid.block.custom.MagicBlock;
 import net.inkarter.mccourseid.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -46,6 +47,8 @@ public class ModBlocks
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noLootTable()));
 
+
+
     public static final DeferredBlock<Block> BLACK_OPAL_STAIRS = registerBlock("black_opal_stairs",
             () -> new StairBlock(ModBlocks.BLACK_OPAL_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
@@ -69,6 +72,10 @@ public class ModBlocks
     public static final DeferredBlock<Block> BLACK_OPAL_TRAPDOOR = registerBlock("black_opal_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noOcclusion()));
 
+
+    public static final DeferredBlock<Block> BLACK_OPAL_LAMP = registerBlock("black_opal_lamp",
+            () -> new BlackOpalLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(BlackOpalLampBlock.CLICKED) ? 15 : 0)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block)

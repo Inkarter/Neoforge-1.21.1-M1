@@ -2,6 +2,7 @@ package net.inkarter.mccourseid.datagen;
 
 import net.inkarter.mccourseid.MCCourseMod;
 import net.inkarter.mccourseid.block.ModBlocks;
+import net.inkarter.mccourseid.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -45,5 +46,10 @@ public class ModBlockTagProvider extends BlockTagsProvider
         tag(BlockTags.FENCE_GATES).add(ModBlocks.BLACK_OPAL_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.BLACK_OPAL_WALL.get());
 
+        this.tag(ModTags.Blocks.PAXEL_MINABLE)
+                .addTag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .addTag(BlockTags.MINEABLE_WITH_AXE)
+                .addTag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .addTag(BlockTags.MINEABLE_WITH_HOE);
     }
 }

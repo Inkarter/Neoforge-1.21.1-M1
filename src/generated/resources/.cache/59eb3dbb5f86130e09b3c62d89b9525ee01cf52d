@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-23T17:43:19.2516644	Loot Tables
+// 1.21.1	2024-12-13T23:12:26.7197397	Loot Tables
 ee0dcc74c817d33f616ed6a25cb2e197fb0dcb02 data/mccourseid/loot_table/blocks/black_opal_block.json
 03cfb4c4d1dcc3304347d98fb5c64a58ab7dd6fa data/mccourseid/loot_table/blocks/black_opal_button.json
 994156f853dd31c98b6148fa5ef747bc95f27cad data/mccourseid/loot_table/blocks/black_opal_deepslate_ore.json
@@ -6,6 +6,7 @@ ee0dcc74c817d33f616ed6a25cb2e197fb0dcb02 data/mccourseid/loot_table/blocks/black
 c7ce8fac976f085c8e0376d742a038b466a5fdd8 data/mccourseid/loot_table/blocks/black_opal_end_ore.json
 f4fc5f1bc4f382cc61e929579614ef93f0b0d170 data/mccourseid/loot_table/blocks/black_opal_fence.json
 02a9da4716d5abb525341ea4cd6d9c13b9051277 data/mccourseid/loot_table/blocks/black_opal_fence_gate.json
+35865259c9dc6f709391229f81eb169f6ef237af data/mccourseid/loot_table/blocks/black_opal_lamp.json
 ad80f4bb0c38eae97c2ef537a90af1d846222d15 data/mccourseid/loot_table/blocks/black_opal_nether_ore.json
 3351e03a890d0807b2e4add87fe515d0aa528e76 data/mccourseid/loot_table/blocks/black_opal_ore.json
 c40741e7669e7ba8e0e60eb1cecbc152940e4e98 data/mccourseid/loot_table/blocks/black_opal_pressure_plate.json

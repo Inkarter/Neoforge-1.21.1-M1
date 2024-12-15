@@ -1,0 +1,6 @@
+{
+    "parent": "mccourseid:item/inkarter_bow",
+    "textures": {
+        "layer0": "mccourseid:item/inkarter_bow_pulling_0"
+    }
+}
