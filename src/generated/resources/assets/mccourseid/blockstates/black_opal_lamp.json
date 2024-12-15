@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "mccourseid:block/black_opal_lamp_off"
+    },
+    "clicked=true": {
+      "model": "mccourseid:block/black_opal_lamp_on"
+    }
+  }
+}

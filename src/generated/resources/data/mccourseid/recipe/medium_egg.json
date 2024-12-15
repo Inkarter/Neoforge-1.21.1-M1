@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mccourseid:small_egg"
+    },
+    {
+      "item": "mccourseid:small_egg"
+    },
+    {
+      "item": "mccourseid:small_egg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mccourseid:medium_egg"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mccourseid:item/black_opal_hoe"
+  }
+}

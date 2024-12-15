@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "black_opal",
+  "key": {
+    "#": {
+      "item": "mccourseid:black_opal"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "mccourseid:black_opal_door"
+  }
+}

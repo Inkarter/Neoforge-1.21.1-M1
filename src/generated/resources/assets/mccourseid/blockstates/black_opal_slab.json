@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mccourseid:block/black_opal_slab"
+    },
+    "type=double": {
+      "model": "mccourseid:block/black_opal_block"
+    },
+    "type=top": {
+      "model": "mccourseid:block/black_opal_slab_top"
+    }
+  }
+}
